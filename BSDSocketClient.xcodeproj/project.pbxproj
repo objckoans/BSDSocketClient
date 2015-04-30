@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3EB615911AF2159600A17B0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB615901AF2159600A17B0F /* main.m */; };
+		3EB615991AF2172600A17B0F /* BSDSocketClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB615981AF2172600A17B0F /* BSDSocketClient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		3EB6158D1AF2159600A17B0F /* BSDSocketClient */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BSDSocketClient; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EB615901AF2159600A17B0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3EB615971AF215A800A17B0F /* BSDSocketClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSDSocketClient.h; sourceTree = "<group>"; };
+		3EB615981AF2172600A17B0F /* BSDSocketClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDSocketClient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				3EB615901AF2159600A17B0F /* main.m */,
+				3EB615971AF215A800A17B0F /* BSDSocketClient.h */,
+				3EB615981AF2172600A17B0F /* BSDSocketClient.m */,
 			);
 			path = BSDSocketClient;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EB615911AF2159600A17B0F /* main.m in Sources */,
+				3EB615991AF2172600A17B0F /* BSDSocketClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
